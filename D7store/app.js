@@ -19,3 +19,4 @@ day_night2.addEventListener('click', () => {
     day_night.style.display = "unset";
     day_night2.style.display = "none";
 });
+
