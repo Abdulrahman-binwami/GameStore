@@ -1,6 +1,8 @@
 <index.html></index.html>
 <html lang="en">
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +14,29 @@
     <meta name="description" content="Sale of Playstation games">
     <meta name="keywords" content="game,store_page,games,sales">
 </head>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <body>
+    <div class="menu-icon">
+        <spuhucuan></span>
+        <span></span>
+        <span></span>
+      </div>
     <header>
         <aside>
             <h1>AB Store <i class="bi bi-dpad-fill"></i></h1>
@@ -22,7 +45,7 @@
             <ul>
                 <li class="active_li"><a href="browse_page.html"><i class="bi bi-archive-fill"></i> Browse</a></li>
                 <li><a href="games_page.html"><i class="bi bi-controller"></i> Games</a></li>
-                <li><a href="store_page.html"><i class="bi bi-bookmark-check-fill"></i> Store</a></li>
+                <li><a href="store_page.html"><i class="bi bi-bookmark-check-fill"></i> Store</a></li> 
             </ul>
             
             
@@ -39,9 +62,13 @@
                 </div>
                 <div class="right_bx">
                     <i class="bi bi-moon-fill" id="day_night"></i>
-                    <i class="bi bi-brightness-high-fill" id="day_night2"></i>
+                    <i class="bi bi-brightness-high-fill" id="day_night2"></i>  
+                    
+                    <a href='https://www.free-counters.org/'>powered by Free-Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=7ae24effb1e21573a4a6890d193e054500d5d05c'></script>
+                    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1147286/t/12"></script>
                 </div>
             </nav>
+            
             <!-- Game Box Start  -->
             <div class="game1">
                 <div class="btns">
@@ -158,12 +185,148 @@
                             <h6>spider man</h6>
                             
                         </div>
+                        
                     </div>
                 </section>
+                <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop"
+      style="background-image: url('./assets/images/shop-bg.jpg')">
+      <div class="container">
+
+        <h2 class="h2 section-title">
+          
+            Gaming Product <span class="span">Corner</span>
+       
+        </h2>
+
+        
+
+              <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                <img src="img/remot.png" width="300" height="260" loading="lazy"
+                  alt="Women Black T-Shirt" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+             
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">PlayStation 5 Media Remote (USA Version)</a>
+                </h3>
+
+                <div class="card-wrapper">
+                  <p class="card-price">$1,300</p>
+
+                  <button class="card-btn">
+                    <ion-icon name="basket"></ion-icon>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="shop-card">
+
+              <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                <img src="img/Screenshot 2024-02-22 at 1.26.16 AM.png" width="300" height="260" loading="lazy"
+                  alt="Gears 5 Xbox Controller" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">PSN (UAE) - $20</a>
+                </h3>
+
+                <div class="card-wrapper">
+                  <p class="card-price">$680</p>
+
+                  <button class="card-btn">
+                    <ion-icon name="basket"></ion-icon>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="shop-card">
+
+              <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                <img src="img/Screenshot 2024-02-22 at 1.24.23 AM.png" width="300" height="260" loading="lazy"
+                  alt="Sony DualSense Wireless Controller" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Sony DualSense Wireless Controller</a>
+                </h3>
+
+                <div class="card-wrapper">
+                  <p class="card-price">$2,350</p>
+
+                  <button class="card-btn">
+                    <ion-icon name="basket"></ion-icon>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="shop-card">
+
+              <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                <img src="img/Screenshot 2024-02-22 at 1.25.03 AM.png" width="300" height="260" loading="lazy"
+                  alt="Virtual Reality Smiled" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+
+                
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">PS5 : Backbone One Playstation Edition for Android</a>
+                </h3>
+
+                <div class="card-wrapper">
+                  <p class="card-price">$4,250</p>
+
+                  <button class="card-btn">
+                    <ion-icon name="basket"></ion-icon>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
             </main>
+            
             <footer>
                 <p>&copy; 2024 Abdulrahman Interactive Entertainment LLC</p>
             </footer>
+                     
+            
             </body>
                     <!-- All Card Data Changed  -->
                 </div>
@@ -172,6 +335,8 @@
     </header>
     <script src="app.js"></script>
     <script src="game_box.js"></script>
+    <script src="button back to top"></script>
 </body>
 
-</html>
+    
+</html
